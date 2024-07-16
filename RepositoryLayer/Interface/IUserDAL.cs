@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLayer.Interface
+namespace RepositoryLayer.Interface
 {
-    public interface IUserBLL
+    public interface IUserDAL
     {
         User SignUp(User user);
         User Login(User user);
